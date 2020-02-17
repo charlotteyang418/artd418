@@ -41,10 +41,14 @@ anime({
 let transform = document.querySelectorAll(".box3")
 anime({
     targets: transform,
-    translateX: 490,
-    skew: 40,
-    scale: 1.2,
-    easing: 'easeInOutQuad'
+    translateX: 400,
+    skew: 50,
+    width: '100%',
+    easing: 'easeOutElastic(1,.5)',
+    direction: 'alternate',
+    duration: 1000,
+    delay: 200,
+    loop: true
 });
 
 // PROPERTIES
@@ -53,15 +57,15 @@ anime({
     targets: props,
     translateX: {
         value: 390,
-        duration: 800
+        duration: 800,
+        easing: 'steps(5)'
     },
     rotate: {
-        value: 330,
         duration: 1800,
         easing: 'easeInOutSine'
     },
     scale: {
-        value: 6,
+        value: 4,
         duration: 1600,
         delay: 800,
         easing: 'easeInOutQuart'
