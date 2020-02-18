@@ -52,13 +52,13 @@ anime({
 });
 
 // PROPERTIES
-let props = document.querySelectorAll(".image")
+let image = document.querySelectorAll(".image")
 anime({
-    targets: props,
+    targets: image1,
     translateX: {
-        value: 390,
+        value: 100,
         duration: 800,
-        easing: 'steps(5)'
+        easing: 'steps(3)'
     },
     rotate: {
         duration: 1800,

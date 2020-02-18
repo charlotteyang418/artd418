@@ -1,0 +1,57 @@
+.txt {
+    position: relative;
+    color: brown
+}
+
+.row {
+    height: 100px;
+    margin: 5px;
+}
+
+.row1 {
+    height: 40px;
+    background-color: antiquewhite;
+    margin: 5px;
+}
+
+.image1 {
+    opacity: 1;
+    position:relative;
+    top:200px;
+    left:10px;
+}
+
+.image2 {
+    opacity: 1;
+    position:relative;
+    top:70px;
+    left:80px;
+}
+
+.image3 {
+    opacity: 1;
+    position:relative;
+    top:380px;
+    left:-50px;
+}
+
+.image4 {
+    opacity: 1;
+    position:relative;
+    top:100px;
+    left:300px;
+}
+
+.image5 {
+    opacity: 1;
+    position:relative;
+    top:10px;
+    left:50px;
+}
+
+.image6 {
+    opacity: 1;
+    position:relative;
+    top:250px;
+    left:80px;
+}
