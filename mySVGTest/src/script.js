@@ -6,8 +6,7 @@ function setup(){
     targets:myPaths[0],
     translateX:100
 })
-
-anime({
+    anime({
     targets:myPaths[1],
     translateX:-300
 })
@@ -16,15 +15,13 @@ anime({
 
 function mousePressed(){
  anime({
-    targets: myPaths,
-    translateY: 150,
-    scale: 1.25,
-    duration: anime.random(0,2000),
-    loop: true, 
-    direction: 'alternate',
-    easing: 'easeInOutSine',
-    autoplay: false
-     
-    
-})   
+    targets: document.querySelectorAll('image'),
+    translateY: 200,
+    scale: 0.5
+})
+    anime({
+        targets: myPaths[1],
+        translateX: 100
+    })
 }
+
