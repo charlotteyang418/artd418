@@ -29,6 +29,8 @@ function setup() {
             easing: 'easeInOutSine',
             autoplay: false
         });
+        
+        tmp.pause();
 
         // storage of animated pats in a collection
         animatedPaths.push(tmp);
