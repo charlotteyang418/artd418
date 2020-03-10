@@ -9,8 +9,6 @@ var myPath = anime.path(cloudPath[0]);
 
 let animatedCloud;
 
-let animatedText;
-
 
 function setup(){
 
@@ -24,15 +22,6 @@ function setup(){
         duration: 10000,
         loop: false
     });
-
-    animatedText = anime({
-      targets: text[0],
-      scale: 0.8,
-      opacity:0.2,
-      duration:1000,
-      easing: 'linear',
-      loop: false
-    })
 
     scrollPlay();
 }
@@ -55,10 +44,8 @@ function scrollPlay() {
 
     if (scrollPosition < 3000){
         animatedCloud.seek(frame)
-        animatedText.seek(frame)
     } else {
         animatedCloud.pause()
-        animatedText.pause()
     }
 
     console.log(scrollPosition)
