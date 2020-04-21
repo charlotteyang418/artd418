@@ -1,0 +1,32 @@
+body {
+  background-image: url('sheep.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px
+}
+
+h1 {
+  font-family: 'Garamond';
+  font-size: 4em;
+  color: maroon
+}
+
+h2 {
+  font-family: 'Garamond';
+  font-size: 1.6em;
+  color:maroon;
+}
+
+h3 {
+  font-family: 'Garamond';
+  font-size: 2em;
+  color:maroon;
+  padding-bottom: 15px
+}
+
+h4 {
+  font-family: 'Garamond';
+  font-size: 1.2em;
+  color: black;
+  padding-bottom: 5px
+}
