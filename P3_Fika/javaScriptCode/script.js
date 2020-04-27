@@ -142,3 +142,17 @@ anime({
     direction: 'alternate',
 
 });
+
+let activated = false;
+let media = document.getElementById("mediaClip"); 
+  function activateMedia() { 
+document.getElementById("myBtn").innerHTML = "media activated"; 
+if (!activated){
+  media.play(); 
+  activated = true;
+} else {
+  media.pause();
+  activated = false;
+}
+  media.loop = false; 
+} 
