@@ -146,7 +146,7 @@ anime({
 let activated = false;
 let media = document.getElementById("mediaClip"); 
   function activateMedia() { 
-document.getElementById("myBtn").innerHTML = "media activated"; 
+document.getElementById("myBtn").innerHTML = "music by audionautix.com"; 
 if (!activated){
   media.play(); 
   activated = true;

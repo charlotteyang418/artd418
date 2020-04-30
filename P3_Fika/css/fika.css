@@ -152,14 +152,33 @@ section {
     background-color: #E5DDCB;
 }
 
+#myBtn{
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-size: 12px;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.1vw;
+  color: #6C3F39;
+  background-color: #E5DDCB;
+  float: right;
+  margin-top: 50px;
+  margin-right: 40px;
+  padding: 16px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  border: none;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+#music{
+  width: 35px;
+}
+
 #a1 {
     position: relative;
     width: 100%;
     height: 70vw;
     margin-bottom: 20px;
-    /* background: url(../img/dummie/nosysheep.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%; */
     background-color: transparent;
 }
 
@@ -168,9 +187,6 @@ section {
     width: 100%;
     height: 70vw;
     margin-bottom: 20px;
-    /* background: url(../img/dummie/nosysheep.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%; */
     background-color: transparent;
 }
 
@@ -193,9 +209,7 @@ section {
 }
 
 #a5 {
-    /* width:100%; */
     background-color: #E5DDCB;
-    /* height: calc(600px + 60%); */
     padding: 2vw;
     padding-top: 3vw;
     display: block;
@@ -207,9 +221,6 @@ section {
     width: 100%;
     height: 70vw;
     margin-bottom: 20px;
-    /* background: url(../img/dummie/nosysheep.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%; */
     background-color: transparent;
 }
 
@@ -269,6 +280,5 @@ section {
     top: 0px;
     bottom: 0px;
     height: 100%;
-    /* padding: 15px; */
     z-index: -10;
 }
