@@ -97,10 +97,32 @@ anime({
   delay: 500
 })
 
+let know = document.querySelectorAll("#know")
+anime({
+    targets: know,
+    translateY: -5,
+    easing: 'easeInOutSine',
+    loop:true,
+    duration:900,
+    delay:200,
+    direction: 'alternate'
+});
+
+let whatis = document.querySelectorAll("#whatis")
+anime({
+    targets: whatis,
+    skew: -20,
+    easing: 'easeOutQuad',
+    loop:true,
+    duration:800,
+    delay:250,
+    direction: 'alternate'
+});
+
 let illust = document.querySelectorAll("#illust")
 anime({
   targets: illust,
-  translateX:80,
+  translateX:60,
   duration: 1500,
   easing: 'easeInOutQuart',
   loop:true,
@@ -139,6 +161,17 @@ anime({
     loop:true,
     duration:600,
     delay:300,
+    direction: 'alternate'
+});
+
+let button = document.querySelectorAll("#myBtn")
+anime({
+    targets: button,
+    rotate: 20,
+    easing: 'easeInOutSine',
+    loop:true,
+    duration:900,
+    delay:200,
     direction: 'alternate',
 
 });
