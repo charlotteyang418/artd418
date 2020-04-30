@@ -274,6 +274,15 @@ section {
     width: calc(30% + 2vw);
 }
 
+#credits {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.1vw;
+  color: #E5DDCB;
+  opacity: 60%;
+}
+
 .backgroundVideo {
     position: fixed;
     left: 0px;
