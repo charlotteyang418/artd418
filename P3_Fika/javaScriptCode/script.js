@@ -167,11 +167,11 @@ anime({
 let button = document.querySelectorAll("#myBtn")
 anime({
     targets: button,
-    rotate: 20,
+    translateX: 20,
     easing: 'easeInOutSine',
     loop:true,
-    duration:900,
-    delay:200,
+    duration:1000,
+    delay:350,
     direction: 'alternate',
 
 });
